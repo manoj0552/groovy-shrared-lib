@@ -3,9 +3,9 @@
 pipeline{
   agent any
   stages{
-       stage('show qoute'){
+       stage('show quote'){
               steps{
-                  showQoute()
+                  showQuote()
               }
        }
   }
