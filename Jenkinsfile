@@ -1,4 +1,4 @@
-@library('groovy-shared-lib@master')_
+@Library('groovy-shared-lib@master')_
 
 pipeline{
   agent any
