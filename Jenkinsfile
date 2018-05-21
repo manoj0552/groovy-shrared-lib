@@ -1,12 +1,6 @@
 @Library('groovy-shared-lib@master')_
 
-pipeline{
-  agent any
-  stages{
-       stage('show quote'){
-              steps{
-                  showQuote()
-              }
-       }
-  }
-}
+ standardPipeline {
+        projectName = "Project1"
+        serverDomain = "Project1 Server Domain"
+    }
